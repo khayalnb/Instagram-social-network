@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-area{
+    width: 100%;
+    height: 53.5px;
+    box-shadow: rgba(0, 0, 0, 0.226) 0px 1px 2px 0px;
+    padding-left: 290px;
+}
+.nav-average{
+    width: 75.5%;
+    height: 53.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2px;
+}
+.search-box{
+    width: 22.7%;
+    height: 52%;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    margin-left: 95px;
+    background-color: #FAFAFA;
+    color:#DBDBDB;
+}
+
+.search-box>input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #FAFAFA;
+    position: relative;
+}
+.search{
+    position: absolute;
+    top: 0;
+    margin-top: 17px;
+    margin-left: 73px;
+}
+.search>i{
+    color: rgb(175, 174, 174);
+}
+.search>span{
+    font-family: system-ui;
+    font-weight: 100;
+    font-size: 14px;
+    color: rgb(146, 144, 144);
+}
+
+.info{
+    padding-top: 8px;
+    height: 100%;
+    width: 21.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.user{
+    width: 21px;
+    height: 21px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+}
+.user>img{
+    width: 99%;
+    height: 99%;
+    border-radius: 50%;
+}
+section{
+    width: 61.5%;
+    height:400px;
+    margin:34.5px 290px ;
+}
+.story-area{
+    width: 65%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.story{
+    width: 12%;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.story>span{
+    font-family: system-ui;
+    font-weight: 100;
+    font-size: 14px;
+    color: rgb(146, 144, 144);
+}
+.story-image{
+    padding: 5px;
+    width: 85.5%;
+    height: 56px;
+    padding: 5px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(orange, violet);
+    padding: 5px;
+    position: relative;
+}
+.story-image>img{
+    width: 99.5%;
+    height: 99.5%;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 10px;
+    top: 0px;
+    right: 0px;
+}
+
+
+.human{
+    margin-top:40px;
+    width:65%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.user-info{
+    width: 100%;
+    height: 70px;
+    background-color: turquoise;
+    padding: 5px;
+}
+.user-title{
+    height: 100%;
+    
+}

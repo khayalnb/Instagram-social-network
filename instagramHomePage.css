@@ -126,18 +126,65 @@ section{
 
 
 .human{
+    margin-bottom: 40px;
     margin-top:40px;
     width:65%;
-    height: 400px;
+    height: 700px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .user-info{
     width: 100%;
     height: 70px;
-    background-color: turquoise;
     padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .user-title{
     height: 100%;
-    
+    width: 35%;
+    display: flex;
 }
+
+.user-title>div>img{
+    width: 43px;
+    height: 41px;
+    border-radius:50% ;
+}
+.user-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+}
+.user-name>div>h6{
+    display: inline-block;
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(var(--f75,38,38,38),1);
+    margin-right: 5px;
+}
+.user-name>div>i{
+    color: #3897F0;
+}
+.user-name>div>span{
+    display: inline-block;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(var(--f75,38,38,38),1);
+    margin-right: 5px;
+}
+.user-photo{
+    width: 100%;
+    height: 500px;
+   
+}
+.user-photo>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
